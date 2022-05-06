@@ -10,15 +10,86 @@
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
+    
+     @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap'); 
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
+    body 
+    {
+      background-color:hsl(212, 45%, 89%);
+      font-family: 'Outfit', sans-serif;
+    }
+    
+    .container
+    
+    {
+     
+      background-color:hsl(220, 15%, 55%);
+      border-radius:15px;
+      margin:30px auto;
+      width:85%;
+      display:flex;
+      flex-direction:row;
+      justify-content:center;
+      align-items:center;
+      
+    }
+    
+    figure{
+     
+      background:hsl(0, 0%, 100%);
+      border-radius:15px;
+      width:350px;
+      padding:10px;
+       display:flex;
+      flex-direction:column;
+      justify-content:space-between;
+      align-items:center;
+      
+    }
+    
+       figure img{
+     
+    max-width:100%
+      
+    }
+    
+    figure figcaption h2 
+    {
+      color:hsl(218, 44%, 22%);
+      font-weight:700;
+    }
+      figure figcaption p
+    {
+      color: hsl(212, 45%, 89%);
+      font-weight:400;
+      text-align:center;
+    }
+    
+    @media(max-width:375px)
+    {
+      .container
+      {
+        width:95%;
+        margin:10px auto;
+        
+      }
+    }
   </style>
 </head>
 <body>
 
-  Improve your front-end skills by building projects
-
-  Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
+  <div class="container">
+   
+    <figure>
+      <img src="./images/img-qr-code.png"/>
+      <figcaption>
+        <h2>Improve your front-end skills by building projects</h2>
+        <p> Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+      </figcaption>
+    </figure>
+      
+  </div>
   
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
