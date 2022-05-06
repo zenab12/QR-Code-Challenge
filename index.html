@@ -7,43 +7,45 @@
   
   <title>Frontend Mentor | QR code component</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    
-     @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap'); 
-    body 
-    {
-      background-color:hsl(220, 15%, 95%);
-      font-family: 'Outfit', sans-serif;
-      text-align:center;
-    }
-    .container,figure 
-    {
-      display:flex;
-      justify-content:center;
-      align-items:center;
-    }
-    
-    .container
-    {
-      flex-direction:row;
-      width:80%;
-      height:680px;
-      background-color:hsl(212, 45%, 89%);
-      border-radius:10px;
-      margin:30px auto;
-      box-shadow:0px 4px 10px hsl(220, 15%, 80%);
-    }
-    
-    figure
-    {
-      flex-direction:column;
-      width:237px;
-      padding:10px;
-      background:hsl(0, 0%, 100%);
-      border-radius:15px;
-    }
-     
+ <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+ <style>   
+  @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap'); 
+  body 
+  {
+    background-color:hsl(220, 15%, 95%);
+    font-family: 'Outfit', sans-serif;
+    text-align:center;
+    flex-direction:column;
+
+  }
+  .container,figure,body
+  {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+  }
+
+  .container
+  {
+    flex-direction:row;
+    width:80%;
+    height:680px;
+    background-color:hsl(212, 45%, 89%);
+    border-radius:10px;
+    margin:30px auto;
+    box-shadow:0px 4px 10px hsl(220, 15%, 80%);
+  }
+
+  figure
+  {
+    flex-direction:column;
+    width:237px;
+    padding:10px;
+    background:hsl(0, 0%, 100%);
+    border-radius:15px;
+  }
+
   figure img
   {
     max-width:100%;
@@ -71,22 +73,46 @@
     
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
-    
-    @media(min-width:275px )and (max-width:500px)
+ .canvas 
+   {
+     position:relative;
+     left:0;
+     top:200px;
+     color:green;
+   }
+   
+  .canvas li 
+   {
+     width:30px;
+     height:10px;
+   }
+  @media(min-width:275px )and (max-width:500px)
+  {
+    .container
     {
-      .container
-      {
-        width:95%;
-        margin:10px auto;
-        
-      }
+      width:95%;
+      margin:10px auto;
     }
-  </style>
+  }
+ </style>
 </head>
 <body>
 
+  <ul class="canvas">
+    <li>.</li>
+    <li>.</li>
+    <li>.</li>
+    <li>.</li>
+  </ul>
+  <ul class="canvas">
+    <li>.</li>
+    <li>.</li>
+    <li>.</li>
+    <li>.</li>
+  </ul>
+  
   <div class="container">
-   
+
     <figure>
       <img src="images/image-qr-code.png" alt="QR"/>
       <figcaption>
@@ -101,5 +127,6 @@
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="https://github.com/zenab12">Zienab Mohamed</a>.
   </div>
+  
 </body>
 </html>
