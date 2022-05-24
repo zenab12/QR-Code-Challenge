@@ -53,7 +53,7 @@ main{display:flex;place-items:center;place-content:center;flex-grow:1}
 ```
 
 ### Continued development
-I will use flexbox and grid templates in comming Challenges with Allah willing  in professional way.
+I will use flexbox and grid template in comming Challenges with Allah willing  in professional way.
 
 
 ### Useful resources
