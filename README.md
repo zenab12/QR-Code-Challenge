@@ -58,7 +58,7 @@ I will use flexbox and grid templates in comming Challenges with Allah willing  
 
 ### Useful resources
 
-- [Flexbox Guide](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
+- [Flexbox Guide](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) - This helped me for refreshing my info about flex in smart way. I really liked this guide and will use it going forward.
 
 
 ## Author
